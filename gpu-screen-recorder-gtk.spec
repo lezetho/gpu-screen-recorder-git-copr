@@ -1,7 +1,7 @@
-%global snapshot r517.23b3d66
+%global snapshot r518.4362e68
 
 # gsr's appdata was split into separate repository.
-%global appdata r46.8dae618
+%global appdata r49.3cd5f10
 
 Name:           gpu-screen-recorder-gtk
 Version:        5.8.1
@@ -51,5 +51,8 @@ install -Dm644 %{SOURCE1} %{buildroot}%{_datadir}/metainfo/com.dec05eba.gpu_scre
 %{_datadir}/icons/hicolor/
 
 %changelog
+* Sat Oct 24 2026 Lezetho <hello@lezetho.xyz> - 5.8.1-1
+- Update to 5.8.1
+
 * Thu Sep 05 2024 Brycen G <brycengranville@outlook.com> - 4.3.3-3
 - Update to 4.3.3

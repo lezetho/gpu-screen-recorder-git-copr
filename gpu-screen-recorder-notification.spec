@@ -1,7 +1,7 @@
-%global snapshot r114.54bc6c8
+%global snapshot r117.4b67014
 
 Name:           gpu-screen-recorder-notification
-Version:        1.3.6
+Version:        1.3.7
 Release:        1%{dist}
 Summary:        A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux.
 License:        GPL-3.0-only
@@ -54,5 +54,8 @@ rm -rf %{_buildroot}%{_datadir}/gsr-notify/fonts
 %{_datadir}/gsr-notify
 
 %changelog
+* Sat Oct 24 2026 Lezetho <hello@lezetho.xyz> - 1.3.7-1
+- Update to 1.3.7
+
 * Fri Dec 13 2024 Brycen G <brycengranville@outlook.com> - r43.b03e4cd
 - Initial package

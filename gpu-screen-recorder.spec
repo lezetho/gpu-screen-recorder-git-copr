@@ -1,7 +1,7 @@
-%global snapshot r1517.68dfeb9
+%global snapshot r1529.fc887bd
 
 Name:           gpu-screen-recorder
-Version:        6.1.3
+Version:        6.1.5
 Release:        1%{dist}
 Summary:        A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux.
 # WARNING. I had to bump this because I decided to use normal versions instead of git snapshot as a version.
@@ -74,6 +74,9 @@ setcap cap_sys_admin+ep %{_bindir}/gsr-kms-server
 
 
 %changelog
+* Sat Oct 24 2026 Lezetho <hello@lezetho.xyz> - 6.1.5-1
+- Update to 6.1.5
+
 * Tue Aug 18 2026 Brycen G <brycengranville@outlook.com> - 6.0.1-1
 - Update to 6.0.1
 * Thu Sep 05 2024 Brycen G <brycengranville@outlook.com> - 5.3.3-1
