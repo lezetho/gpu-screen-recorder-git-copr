@@ -1,8 +1,8 @@
-%global commit 47cc555b4a6e6121329cf315cf54531b4f85c5d0
+%global commit a790de75f3c02e10c91d45f59b91a18f68d87b6e
 
 Name:           gpu-screen-recorder-adwaita
 Version:        1.0.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        GNOME frontend for GPU Screen Recorder
 License:        GPL-3.0-or-later
 URL:            https://github.com/runlevel5/gpu-screen-recorder-adwaita
@@ -50,5 +50,8 @@ appstream-util validate-relax --nonet %{buildroot}%{_datadir}/metainfo/com.dec05
 %{_datadir}/icons/hicolor/
 
 %changelog
+* Tue Oct 27 2026 Lezetho <hello@lezetho.xyz> - 1.0.1-3
+- Update version to 1.0.1
+
 * Sun Feb 22 2026 Trung Lê <8@tle.id.au> - 1.0.1-1
 - Initial release of gpu-screen-recorder-adwaita
