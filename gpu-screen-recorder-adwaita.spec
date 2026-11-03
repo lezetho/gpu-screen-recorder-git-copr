@@ -37,16 +37,16 @@ replay (ShadowPlay-like) functionality using GPU hardware acceleration.
 %find_lang %{name} --with-gnome
 
 %check
-desktop-file-validate %{buildroot}%{_datadir}/applications/com.dec05eba.gpu_screen_recorder.desktop
-appstream-util validate-relax --nonet %{buildroot}%{_datadir}/metainfo/com.dec05eba.gpu_screen_recorder.metainfo.xml
+desktop-file-validate %{buildroot}%{_datadir}/applications/io.github.runlevel5.gpu_screen_recorder_adwaita.desktop
+appstream-util validate-relax --nonet %{buildroot}%{_datadir}/metainfo/io.github.runlevel5.gpu_screen_recorder_adwaita.metainfo.xml
 %meson_test
 
 %files -f %{name}.lang
 %license LICENSE
 %doc README.md
 %{_bindir}/gpu-screen-recorder-adw
-%{_datadir}/applications/com.dec05eba.gpu_screen_recorder.desktop
-%{_datadir}/metainfo/com.dec05eba.gpu_screen_recorder.metainfo.xml
+%{_datadir}/applications/io.github.runlevel5.gpu_screen_recorder_adwaita.desktop
+%{_datadir}/metainfo/io.github.runlevel5.gpu_screen_recorder_adwaita.metainfo.xml
 %{_datadir}/icons/hicolor/
 
 %changelog
